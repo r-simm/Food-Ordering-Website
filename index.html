@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/popular.css">
+    <link rel="stylesheet" href="css/order.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/media.css">
+    
+    <style>
+        :root {
+            --yellow: #fac72e;
+        }
+        *{
+            /* transition: all 0.2s linear; */
+            box-sizing: border-box;
+        }
+        *::selection{
+            background-color: var(--yellow);
+            color: white;
+        }
+        html{
+            overflow-x: hidden;
+        }
+        body{
+            overflow-x: hidden;
+        }
+        html::-webkit-scrollbar{
+            width: 1.1rem;
+        }
+        html::-webkit-scrollbar-track{
+            background: #333;
+
+        }
+        html::-webkit-scrollbar-thumb{
+            background: var(--yellow);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="Logo">
+        </div>
+        <div class="right">
+            <div class="navlist">
+                <ul>
+                    <li class="navlistname"><a class="active" href="#home">Home</a> </li>
+                    <li class="navlistname"><a href="#about">About</a> </li>
+                    <li class="navlistname"><a href="#menu">Menu</a> </li>
+                    <li class="navlistname"><a href="#gallery">Gallery</a> </li>
+                    <li class="navlistname"><a href="#popular">Popular</a> </li>
+                </ul>
+            </div>
+            <div class="orderbtn">
+                <button> <a href="#order"> ORDER NOW</a></button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="homesection" id="home">
+        <div class="homecontent">
+            <div class="homehead">
+                <h1 style="font-family: 'Oswald', sans-serif;">We Believe Good Food</h1>
+                <h1 style="font-family: 'Oswald', sans-serif; color: #fac72e;">Offer Great Smile !</h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit corpo Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Voluptates dolor quam iusto reiciendis, commodi eum voluptatum placeat
+                nesciunt quae sed. ris necessitatibus nemo assumendaautem voluptatum eius quam inventore nostrum
+                aspernatur.</p>
+            <button class="homebtn">Get Started</button>
+        </div>
+        <div class="homeimg">
+            <img src="images/home.jpg" alt="img">
+        </div>
+    </div>
+
+
+
+
+
+    <div class="about" id="about">
+        <img class="abtimg" src="images/about.jpg" alt="">
+        <div class="abtcontent">
+            <div class="abthead">
+                <h1 style="font-family: 'Oswald', sans-serif;">A Word&nbsp;</h1>
+                <h1 style="font-family: 'Oswald', sans-serif; color: var(--yellow);">About Us</h1>
+            </div>
+            <p class="p1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium cupiditate natus quidem
+                repudiandae culpa officia odit, minima eum harum?Lorem ipsum, dolor sit amet consectetur.
+            </p>
+            <p class="p2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eius maxime
+                assumenda harum error vitae? Impedit illo error vitae incidunt placeat sit eaque exercitationem optio
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, numquam. Quos asperiores doloremque
+                perspiciatis necessitatibus 
+                quam. Eligendi modi autem eaque assumenda, tempore harum amet dignissimos commodi?
+            </p>
+            <button class="abtbtn">Learn More</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="menu" id="menu">
+        <div class="menuhead">
+            <h1 style="font-family: 'Oswald', sans-serif;">Our Delicious&nbsp</h1>
+            <h1 style=" font-family: 'Oswald', sans-serif;color: var(--yellow);">Menu</h1>
+        </div>
+        <div class="menuhr" id="menuhr1">
+            ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        </div>
+        <div class="foodtime">
+            <button class="foodtimebtn active">Breakfast</button><button class="foodtimebtn">Lunch</button><button
+                class="foodtimebtn">Dinner</button><button class="foodtimebtn">Dessert</button>
+
+        </div>
+        <div class="menuhr" id="menuhr2">
+            ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        </div>
+        <div class="menusection">
+            <div class="menuimg">
+                <img src="images/breakfast.jpeg" alt="">
+            </div>
+            <div class="menucontent">
+                <div class="menucontentname">
+                    <div class="menucontenthead">
+                        <h2 style="color: var(--yellow);">01. &nbsp;</h2>
+                        <h2>We Serve Best Food In The Country</h2>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur Nihil laboriosam illo consectetur enim yuopfefe
+                        wfwflijhwof.</p>
+                </div>
+                <div class="menucontentname">
+                    <div class="menucontenthead">
+                        <h2 style="color: var(--yellow);">02. &nbsp;</h2>
+                        <h2>We Serve Best Food In The Country</h2>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur Nihil laboriosam illo consectetur enim yuopfefe
+                        wfwflijhwof.</p>
+                </div>
+                <div class="menucontentname">
+                    <div class="menucontenthead">
+                        <h2 style="color: var(--yellow);">03. &nbsp;</h2>
+                        <h2>We Serve Best Food In The Country</h2>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur Nihil laboriosam illo consectetur enim yuopfefe
+                        wfwflijhwof..</p>
+                </div>
+                <div class="menucontentname">
+                    <div class="menucontenthead">
+                        <h2 style="color: var(--yellow);">04. &nbsp; </h2>
+                        <h2>We Serve Best Food In The Country</h2>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consecteturNihil laboriosam illo consectetur enim yuopfefe
+                        wfwflijhwof.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="gallery" id="gallery">
+        <div class="galleryhead">
+            <h1 style="font-family: 'Oswald', sans-serif;">Our Food&nbsp</h1>
+            <h1 style="font-family: 'Oswald', sans-serif; color: var(--yellow);">Gallery</h1>
+        </div>
+        <div class="gallerypics">
+            <img src="images/b.jpeg" alt=""><img src="images/f.jpeg" alt=""><img src="images/a.jpeg" alt=""><img
+                src="images/d.jpeg" alt=""><img src="images/c.jpeg" alt=""><img src="images/e.jpeg" alt="">
+        </div>
+    </div>
+
+
+    <div class="popular" id="popular">
+        <div class="popularhead">
+            <h1 style="font-family: 'Oswald', sans-serif;">Most&nbsp</h1>
+            <h1 style="font-family: 'Oswald', sans-serif; color: var(--yellow);">Popular&nbsp</h1>
+            <h1 style="font-family: 'Oswald', sans-serif;">Food&nbsp</h1>
+        </div>
+        <div class="populargrid">
+            <div class="griditem">
+                <img src="images/Lobster_Newburg.jpg" alt="">
+                <h1>Lobster Newburg</h1>
+                <h2 style="color: var(--yellow);">&#9733;&#9733;&#9733;&#9733;&#9733;</h2>
+                <h2>$40.00</h2>
+                <div class="gridbtn">
+                    <button class="gridbtn">Add to Cart</button>
+                </div>
+            </div>
+            <div class="griditem">
+                <img src="images/waldorf.jpeg" alt="">
+                <h1>Waldorf Salad</h1>
+                <h2 style="color: var(--yellow);">&#9733;&#9733;&#9733;&#9733;&#9733;</h2>
+                <h2>$50.00</h2>
+                <div class="gridbtn">
+                    <button class="gridbtn">Add to Cart</button>
+                </div>
+            </div>
+            <div class="griditem">
+                <img src="images/beef.jpeg" alt="">
+                <h1>Beef Stroganoff</h1>
+                <h2 style="color: var(--yellow);">&#9733;&#9733;&#9733;&#9733;&#9733;</h2>
+                <h2>$30.00</h2>
+                <div class="gridbtn">
+                    <button class="gridbtn">Add to Cart</button>
+                </div>
+            </div>
+            <div class="griditem">
+                <img src="images/reuben.jpeg" alt="">
+                <h1>Reuben</h1>
+                <h2 style="color: var(--yellow);">&#9733;&#9733;&#9733;&#9733;&#9733;</h2>
+                <h2>$28.00</h2>
+                <div class="gridbtn">
+                    <button class="gridbtn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="order" id="order">
+        <div class="orderhead">
+            <h1 style="font-family: 'Oswald', sans-serif;">Place Your&nbsp</h1>
+            <h1 style="font-family: 'Oswald', sans-serif; color: var(--yellow);">Order</h1>
+        </div>
+        <div class="outerordercontent">
+            <div class="ordercontent">
+                <form action="">
+                    <ul>
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email Address">
+                        <input type="text" placeholder="Contact No.">
+                        <input type="text" placeholder="Address">
+                        <input class="orderdescribe" type="text" placeholder="Your Order">
+                    </ul>
+                    <button class="orderrbtn">Order Now</button>
+                </form>
+                <div class="formimg">
+                    <img src="images/order.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="top">
+            <div class="a">
+                <h2>Contact Info</h2>
+                <ul>
+                    <li>&#9993 Dfood@gamil.com</li>
+                    <li>&#9742 +123-456-7890</li>
+                    <li>&#9742 +987-654-3210</li>
+                </ul>
+            </div>
+            <div class="b">
+                <h2>Branch Locations</h2>
+                <ul>
+                    <li>India</li>
+                    <li>USA</li>
+                    <li>France</li>
+                    <li>Russia</li>
+                </ul>
+            </div>
+            <div class="c">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#home">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#menu">Menu</a> </li>
+                    <li><a href="#gallery">Gallery</a> </li>
+                    <li><a href="#popular">Popular</a> </li>
+                    <li><a href="#order">Order</a> </li>
+                </ul>
+            </div>
+            <div class="d">
+                <h2>Follow Us</h2>
+                <ul>
+                    <li><a href="#">Facebook</a> </li>
+                    <li><a href="#">Instagram</a> </li>
+                    <li><a href="#">Twitter</a> </li>
+                    <li><a href="#">Youtube</a> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom">
+            <hr>
+            <span>
+                <div>Created by &nbsp</div>
+                <div style="color: var(--yellow);">Simarpreet K. &nbsp</div>
+                <div>&nbspAll Rights Reserved</div>
+            </span>
+        </div>
+    </footer>
+</body>
+
+</html>

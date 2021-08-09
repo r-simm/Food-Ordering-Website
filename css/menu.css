@@ -1,0 +1,76 @@
+
+:root{
+    --yellow: #fac72e;
+}
+.menuhead{
+    padding-top: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.menuhead h1{
+    font-size: 3.5rem ;
+}
+.menuhr{
+    /* width: 1046px; */
+    text-align: center;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+}
+#menuhr2{
+    margin-top: 20px;
+}
+.foodtime{
+    text-align: center;
+}
+.foodtimebtn{
+    width: 150px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border-color: var(--yellow);
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.foodtime .active{
+    background-color: var(--yellow);
+}
+.foodtimebtn:hover{
+    transition: all 0.2s linear;
+    background-color: var(--yellow);
+}
+.menusection{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.menuimg img{
+    width: 540px;
+    height: 350px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 60px;
+    box-shadow: 5px 5px 15px gray;
+}
+.menucontent{
+    width: 400px;
+    /* max-height: 466px; */
+    margin-left: 30px;
+}
+.menucontentname{
+    margin-top: 30px;
+}
+.menucontentname p{
+    margin-top: 10px;
+}
+.menucontenthead{
+    display: flex;
+    flex-direction: row;
+}
+.menucontenthead h2{
+    font-family: 'Oswald', sans-serif;
+}

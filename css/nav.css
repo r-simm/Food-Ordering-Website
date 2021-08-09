@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --yellow: #fac72e;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 13vh;
+    align-items: center;
+    box-shadow: 1px 7px 14px rgb(187, 181, 181);
+}
+.logo img{
+    position: absolute;
+    left: 74px;
+    top: 4px;
+    height: 12vh;
+    width: 6vw;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-around;
+}
+.navlist ul{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.orderbtn a{
+    text-decoration: none;
+    color: black;
+}
+.navlist ul li a.active{
+    color: var(--yellow);
+}
+.navbar li a:hover{
+    transition: all 0.2s linear;
+    color: var(--yellow);
+}
+.orderbtn button{
+    position: relative;
+    /* bottom: 3px; */
+    /* right: 4px; */
+    font-size: 12px;
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+    border-radius: 21px;
+    padding: 5px;
+    cursor: pointer;
+}
+.orderbtn button:hover{
+    transition: all 0.2s linear;
+    background-color: rgb(251, 251, 166);
+}

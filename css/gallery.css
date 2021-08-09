@@ -1,0 +1,27 @@
+.gallerypics{
+    margin-top: 30px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto auto auto ;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+:root {
+    --yellow: #fac72e;
+}
+.gallerypics img{
+    width: 320px;
+    height: 220px;
+}
+.galleryhead{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.gallery{
+    padding-top: 8%;
+}
+.galleryhead h1{
+    font-size: 3.5rem ;
+}

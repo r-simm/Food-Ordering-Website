@@ -1,0 +1,49 @@
+:root{
+    --yellow: #fac72e;
+}
+.about{
+    padding-top: 20%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    /* height: 70%;
+    width: 80vw; */
+    margin-right: 150px;
+}
+.abtimg{
+    flex-shrink: 2;
+    margin-top: 20px;
+    width: 480px;
+    height: 380px;
+}
+.abtimg img{
+    width: 200px;
+}
+.abtcontent{
+    /* width: 800px; */
+    flex-shrink: 1;
+    margin-left: 20px;
+}
+.abtcontent .p2, .p1{
+    margin-top: 20px;
+}
+.abthead{
+    display: flex;
+    flex-direction: row;
+}
+.abtcontent h1{
+    font-size: 3.5em;
+}
+.abtbtn{
+    width: 200px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-color: var(--yellow);
+    background-color: white;
+    padding: 2px;
+    cursor: pointer;
+}
+.abtbtn:hover{
+    transition: all 0.2s linear;
+    background-color: var(--yellow);
+}
